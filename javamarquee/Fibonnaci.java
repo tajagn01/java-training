@@ -26,3 +26,10 @@ public class Fibonnaci {
     }
 
 }
+
+//call by value /call by refreance
+//perapitrize and not peratize 
+//reicrcsive fun
+//diffrance btween peramiter and agument 
+//functioin overloding function overriding
+
