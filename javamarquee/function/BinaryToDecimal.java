@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class BinaryToDecimal {
      public static int binaryToDecimal(int n){
@@ -10,6 +10,7 @@ public class BinaryToDecimal {
             power*=2;
             n/=10;
         }
+         
         return decimal;
     }
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class decimalToBinary {
      public static int DecimalToBinary(int n){

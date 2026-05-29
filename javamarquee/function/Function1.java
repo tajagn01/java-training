@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class Function1 {
     public static int Sum(int a, int b){

@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class Ftoc {
     public static double convertToFahrenheit(double celsius) {

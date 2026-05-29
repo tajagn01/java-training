@@ -1,4 +1,4 @@
-package javamarquee;
+
 import java.util.*;
 
 public class rollbase {
@@ -30,51 +30,5 @@ public class rollbase {
 //            sum += i;
 //        }
 //        System.out.println(sum);
-//
-//        int battary = 10;
-//        int min = 0;
-//        while(battary<100){
-//            battary += 10;
-//            min += 1;
-//        }
-//        System.out.println(min);
-
-//
-//
-//        int num = 131;
-//        int n = num;
-//        int ans = 0;
-//        while(num > 0){
-//            int rem = num%10;
-//            ans = ans*10 + rem;
-//            num /= 10;
-//        }
-//        if(ans == n) {
-//            System.out.println("Is palindrom");
-//        }else{
-//            System.out.println("Is not palindrom");
-//        }
-
-
-        int n = sc.nextInt();
-        int temp = n;
-        int t = n;
-        int ans = 0;
-        int count=0;
-        while(temp>0){
-            temp/=10;
-            count++;
-        }
-        while(t>0){
-            int rem = t%10;
-            ans += Math.pow(rem, count);
-            t /= 10;
-        }
-        if( ans == n){
-            System.out.println("Armstrong");
-        }else{
-            System.out.println("Not Armstrong");
-        }
-
     }
 }

@@ -1,4 +1,3 @@
-package javamarquee;
 import java.util.*;
 
 public class armstrong {

@@ -1,4 +1,4 @@
-package javamarquee;
+
 import java.util.*;
 public class Calc {
     public static void main(String[] args){
@@ -28,12 +28,5 @@ public class Calc {
 //            default:
 //                System.out.println("Invalid char");
 //        }
-//
-        for(int i=1; i<=20; i++) {
-            if (i % 3 == 0) {
-                System.out.print(i + " ");
-            }
-        }
-
     }
 }

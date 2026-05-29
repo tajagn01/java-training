@@ -1,4 +1,4 @@
-package javamarquee;
+
 
 import java.util.Scanner;
 

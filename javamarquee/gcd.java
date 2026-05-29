@@ -1,5 +1,5 @@
-package javamarquee;
-import java.util.*;
+
+
 public class gcd {
     public static void main(String[] args) {
         int max = 60;

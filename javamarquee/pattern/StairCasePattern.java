@@ -1,4 +1,4 @@
-package javamarquee.pattern;
+package pattern;
 
 public class StairCasePattern {
     public static void main(String[] args) {

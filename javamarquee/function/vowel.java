@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class vowel {
     public static boolean isVowel(char c) {

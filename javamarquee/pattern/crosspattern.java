@@ -1,4 +1,4 @@
-package javamarquee.pattern;
+package pattern;
 
 public class crosspattern {
     public static void main(String[] args) {

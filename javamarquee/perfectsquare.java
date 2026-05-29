@@ -1,4 +1,4 @@
-package javamarquee;
+
 import java.util.*;
 public class perfectsquare {
     public static void main(String[] args) {

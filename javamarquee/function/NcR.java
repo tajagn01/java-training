@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class NcR {
     public static int Fact(int n) {
@@ -16,6 +16,6 @@ public class NcR {
        int factr = Fact(r);
        int fact_nr = Fact(n-r);
        int NcR = factn / factr *fact_nr;
-
+       System.out.println("nCr = " + NcR);
     }
 }

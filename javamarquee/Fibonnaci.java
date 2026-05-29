@@ -1,4 +1,4 @@
-package javamarquee;
+
 
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ public class Fibonnaci {
         int n = sc.nextInt();
         System.out.println();
         fibo(n);
-        
     }
 
 }

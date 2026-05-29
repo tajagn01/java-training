@@ -1,9 +1,8 @@
-package javamarquee.function;
+package function;
 
 public class PrimeorNot {
 
     public static boolean isPrime(int n){
-        boolean isPrime = true;
      if (n <= 1) {
             return false;
         }

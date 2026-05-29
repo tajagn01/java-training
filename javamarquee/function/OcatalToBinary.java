@@ -1,4 +1,4 @@
-package javamarquee.function;
+package function;
 
 public class OcatalToBinary {
      public static int OctalToBinary(int n){

@@ -1,4 +1,4 @@
-package javamarquee.pattern;
+package pattern;
 
 public class pattern9 {
     public static void main(String[] args) {
