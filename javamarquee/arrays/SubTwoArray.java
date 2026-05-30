@@ -1,30 +1,38 @@
 package arrays;
-
 import java.util.Scanner;
 
-public class SubTwoArray {
-    public static int[] innerSubTwoArray(int[] arr1, int[] arr2) {
-        int n = arr1.length;
-        int[] res = new int[n];
-        for (int i = 0; i < n; i++) {
-            res[i] = arr1[i] - arr2[i];
+ class Subtwoarray {
+    public static int[] subtractArray(int[] arr1, int[] arr2) {
+    int[] result = new int[arr1.length];
+    int borrow = 0;
+    for (int i = arr1.length - 1; i >= 0; i--) {
+        int a = arr1[i] - borrow;
+        int b = arr2[i];
+        if (a < b) {
+            a = a + 10;
+            borrow = 1;
+        } else {
+            borrow = 0;
         }
-        return res;
+        result[i] = a - b;
     }
+    return result;
+}
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr1 = new int[n];
         int[] arr2 = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr1[i] = sc.nextInt();
+        int[] res = new int[n];
+        for(int i=0;i<n;i++){
+            arr1[i]= sc.nextInt();
         }
-        for (int i = 0; i < n; i++) {
-            arr2[i] = sc.nextInt();
+        for(int i=0;i<n;i++){
+            arr2[i]= sc.nextInt();
         }
-        int[] res = innerSubTwoArray(arr1, arr2);
-        for (int i = 0; i < n; i++) {
+        res = subtractArray(arr1, arr2);
+        for(int i =0;i<n;i++){
             System.out.println(res[i]);
         }
     }
